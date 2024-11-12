@@ -1,0 +1,58 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.hierarchy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.line-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.director-container,
+.manager-container,
+.designer-container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #038B82;
+  box-shadow: 0px 1.158px 2.316px rgba(0, 0, 0, 0.17);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.ceo-box {
+  width: 114.632px;
+  height: 40.526px;
+}
+
+.director-box {
+  width: 125.632px;
+  height: 40.526px;
+}
+
+.manager-box {
+  width: 134.316px;
+  height: 40.526px;
+}
+
+.designer-box {
+  width: 175.421px;
+  height: 40.526px;
+}
